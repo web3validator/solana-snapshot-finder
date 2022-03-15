@@ -57,13 +57,13 @@ sudo apt-get update \
 Start script  
 Mainnet  
 ```python
-python3 snapshot-finder.py --snapshot_path $HOME/solana/validator-ledger
+python3 snapshot-finder.py --snapshot_path $HOME/solana/ledger
 ``` 
 `$HOME/solana/validator-ledger/` - path to your `validator-ledger`
 
 TdS  
 ```python
-python3 snapshot-finder.py --snapshot_path $HOME/solana/validator-ledger -r http://api.testnet.solana.com
+python3 snapshot-finder.py --snapshot_path $HOME/solana/ledger -r http://api.testnet.solana.com
 ``` 
 
 ### Run via docker  
